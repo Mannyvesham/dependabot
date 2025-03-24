@@ -166,3 +166,8 @@ updates:
       interval: "weekly"
       day: "sunday"
       time: "16:00"
+ # New Terraform configuration
+  - package-ecosystem: "terraform"
+    directory: "/"
+    schedule:
+      interval: "daily"
